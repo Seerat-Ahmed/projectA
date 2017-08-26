@@ -1,0 +1,86 @@
+/*// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)*/
+
+
+@media only screen and (min-width: 350px) and (max-width: 570px){ 
+    .heading-name {
+        padding-top: 60px;
+        font-size: 10vw;
+        margin: 0;
+    }
+    .anchor {
+        font-size: 7vw;
+    }
+    .home-bio {
+        font-size: 17px;
+        margin-top: 20px;
+        width: 80%;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .about {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .about p {
+        font-size: 16px;
+    }
+
+    .portfolio {
+        height: auto;
+    }
+    .portfolio-heading {
+        font-size: 8vw;
+        width: 80%;
+        margin: 10px auto;
+    }
+    .portfolio h2 {
+        font-size: 8vw;
+    }
+    .modal h2{
+        font-size: 6vw;
+    }
+    .portfolio figcaption {
+        padding-top: 48px !important;
+    }
+
+
+ }
+/*
+@media (min-width: 576px) { 
+    .heading-name {
+        font-size: 10vw;
+        color: palevioletred;
+    }
+    .anchor {
+        font-size: 6vw;
+    }
+    .home-bio {
+        width: 70%;
+    }
+
+
+ }*/
+
+/*// Medium devices (tablets, 768px and up)*/
+/*@media (min-width: 768px) { 
+    
+
+
+ }*/
+
+/*// Large devices (desktops, 992px and up)*/
+/*@media (min-width: 992px) { 
+    
+
+
+ }*/
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+/*@media (min-width: 1200px) { 
+    
+
+ }*/

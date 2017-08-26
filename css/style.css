@@ -1,0 +1,286 @@
+/*loader*/
+
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+/*loader*/
+
+
+/*slideshow*/
+
+
+
+
+
+
+/*slideshow*/
+.row {
+    margin: 0 !important;
+}
+.container-fluid {
+    display: none;
+}
+
+body, html, #container {
+    margin: 0;
+    width: 100% !important;
+}
+
+.highlight {
+    color: #ffffff;
+}
+
+.degree, .year {
+    color: #838c95;
+    font-size: 17px;
+}
+.education p {
+    color: #838c95;
+}
+/*Home*/
+ .parallex, .container-fluid {
+    width: 100%;
+    margin: 0;
+    height: 662px;
+    background: url('../images/header-background.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover; 
+}
+
+.parallex div {
+    text-align: center;
+}
+.portfolio {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    height: auto;
+    background: url('../images/header-background-2.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+.portfolio a {
+    text-decoration: none;
+    color: #ffffff;
+}
+a {
+        text-decoration: none;
+}
+.heading-email {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.heading-email>a {
+    color: #f06000;
+    /*font-size: 32px;*/
+}
+.anchor:hover {
+    text-decoration: none ;
+    color: #f06000;
+}
+.heading-name {
+    color: #f4f4f4;
+    font-size: 84px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.home-content {
+    position: relative;
+    padding-top: 100px;
+}
+.home-bio {
+    width: 50%;
+    font-size: 20px;
+    color: #838c95;
+    margin: auto;
+    line-height: 32px;
+}
+.home-bio a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/*profilepic*/
+.profile {
+    text-align: center;
+}
+.profile-pic {
+    border-radius: 100%;
+    width: 50%;
+    height: auto;
+    padding: 2%;
+}
+/*progressbar*/
+.progress{
+    margin: 10px;
+    border-radius: 2px;
+}
+
+/*row*/
+.row {
+    padding: 5px;
+}
+.row div{
+    padding: 5px;
+}
+
+/*making h2 row center*/
+.center-text {
+    text-align: center;
+}
+
+/*making underline*/
+.horizontal-line{
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    border: 2px solid #11abb0;
+}
+
+.sub-heaing {
+    color: #f06000;
+    font-size: 4vw;
+}
+/*//Making text responsive*/
+.res-text {
+    font-size: 7vw;
+}
+/*about*/
+.about {
+    background-color: #2b2b2b;
+    color: #7A7A7A;
+}
+.about h2 {
+    color: #ffffff;
+}
+.about p {
+    line-height: 30px;
+}
+.about i {
+    padding: 3px 5px;
+}
+
+/*ijtimayi*/
+.about, .resume {
+    padding: 60px;
+}
+/*resume*/
+.bborder {
+    display: block;
+    width: 70%;
+    margin: 60px auto;
+    border: 1px solid #E8E8E8;
+}
+
+.portfolio-heading {
+    color: #ffffff;
+    width: 20%;
+    margin: 0 auto;
+    padding: 60px 15px 15px 15px;  
+    font-size: 4vw;
+}
+.shade {
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 100%;
+    width: 100%;
+}
+.contact-email {
+    width: 100%;
+    margin: 0;
+    height: auto;
+    background-color: #191919;
+}
+.container-fluid{
+    padding: 0 !important;
+}
+form {
+    padding: 70px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+input {
+    border: none;
+    background-color: #373233;
+    padding: 15px;
+    width: 60%;
+    color: #ffffff;
+    font-size: 18px;
+}
+.submit {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+input:focus {
+    background-color: #11abb0;
+    outline: none;
+}
+textarea:focus {
+    background-color: #11abb0;
+    outline: none;
+}
+
+textarea {
+    border: none;
+    background-color: #373233;
+    padding: 10px;
+    width: 60%;
+    color: #ffffff;
+    font-size: 18px;
+}
+label {
+   display: block;
+   color: white; 
+}
+.required {
+    color: #11abb0;
+}
+
+
+.degree {
+    padding-bottom: 30px !important;
+}
